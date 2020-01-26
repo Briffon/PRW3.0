@@ -1,0 +1,7 @@
+.hero:hover{
+    opacity: .5;
+}
+.hero{
+    background-color: white;
+    display: inline-block;
+}

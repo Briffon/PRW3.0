@@ -1,0 +1,51 @@
+.eventForm{
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    padding: 1rem;
+    border-radius: 10px;
+    width: 35%;
+    opacity: 1;
+    position: relative;
+    bottom: 50;
+    text-align: left;
+}
+.eventForm h2{
+    margin: auto;
+}
+
+.eventInput{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    width: 90%;
+    margin-bottom: 1rem;
+}
+
+.eventInput:nth-of-type(1){
+    margin-top: 1rem;
+}
+
+.eventInput input{
+    background-color: #D3D3D3;
+    border-color: #C0C0C0;
+    padding: .4rem;
+}
+
+.formButtons{
+
+}
+
+.formButtons button{
+    background-color: #4095BA;
+    color: white;
+    border-radius: 5px;
+    border-style: none;
+    width: 45%;
+    padding: .5rem;
+    margin: .5rem;
+    font-weight: 600;
+    font-size: 1em;
+}
+

@@ -1,0 +1,74 @@
+.homePage{
+    display: flex;
+    background-color: white;
+    height: 100vh;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    overflow-y: scroll;
+}
+
+.eventsCont{
+    overflow-x: scroll;
+    width: 90%;
+    height: 30rem;
+    margin: auto;
+    display: grid;
+    grid-template-columns:repeat(3,1fr);
+    justify-items: center;
+    overflow-x: hidden;
+}
+
+.eventsCont .event{
+    margin: 1rem;
+}
+
+section{
+    margin: auto;
+    width: 95%;
+}
+
+.util img{
+    width: 36px;
+    height: 36px;
+}
+
+.util{
+    display: flex;
+    flex-direction: row;
+    width: 8.5%;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+}
+
+.leftNav{
+    width: 50%;
+}
+
+.showWeekly{
+    display: flex;
+    width: 100%;
+    background-color: RGBA(0,0,0,.8);
+    height: 100vh;
+    position: absolute;
+    z-index: 1;
+    text-align: center;
+}
+
+.showOther{
+    display: flex;
+    width: 100%;
+    background-color: RGBA(0,0,0,.8);
+    height: 100vh;
+    position: absolute;
+    z-index: 1;
+    text-align: center;
+}
+
+.closed{
+    display: none;
+}

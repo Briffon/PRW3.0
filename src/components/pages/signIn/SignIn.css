@@ -1,0 +1,9 @@
+.content{
+    position: absolute;
+}
+
+.hero{
+    margin: auto;
+    display: flex;
+    margin-top: 10px;
+}
